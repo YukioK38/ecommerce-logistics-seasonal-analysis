@@ -40,13 +40,13 @@ The Olist dataset contains ~100k orders across multiple Brazilian marketplaces. 
 
 **Hypothesis 1 — OLS Linear Regression with dummy variable:**
 
-$$\text{sales} = \beta_0 + \beta_1 t + \beta_2 \text{is\_november} + \epsilon$$
+$$\text{sales} = \beta_0 + \beta_1 t + \beta_2 \text{is\\_november} + \epsilon$$
 
 The time trend variable `t` controls for organic growth; `is_november` isolates the Black Friday effect. A significant positive β₂ rejects H₀.
 
 **Hypothesis 2 — Right-tailed One-Sample t-Test:**
 
-$$\text{days\_diff} = \text{Estimated Delivery} - \text{Actual Delivery}$$
+$$\text{days\\_diff} = \text{Estimated Delivery} - \text{Actual Delivery}$$
 
 Tests whether the population mean of `days_diff` is significantly greater than zero. The large sample size ensures robustness via the Central Limit Theorem.
 
