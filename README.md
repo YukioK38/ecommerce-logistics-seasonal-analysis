@@ -22,8 +22,10 @@ Long estimated shipping windows protect customer satisfaction but may hurt check
 
 | Hypothesis | Result | Evidence |
 |---|---|---|
-| Black Friday drives significantly more orders | ✅ Confirmed | β = +2,535 orders, p = 0.005 |
-| Stores inflate shipping deadlines intentionally | ✅ Confirmed | Mean gap = 11 days, p < 0.00001 |
+| Black Friday drives significantly more orders | ✅ Supported | β = +2,535 orders, p = 0.005 |
+| Stores systematically overestimate delivery times | ✅ Supported | Mean gap = 11 days, p < 0.00001 |
+
+![Regression](assets/regression.png)
 
 **Black Friday lift:** Controlling for the platform's organic monthly growth (~335 new orders/month), November alone generates an average of **~2,535 additional orders**, a statistically significant spike isolated from the baseline trend (Adjusted R² = 0.90).
 
@@ -57,6 +59,8 @@ Before hypothesis testing, the project mapped:
 - Seasonal order distribution across the top 10 Brazilian states (heatmap)
 
 The heatmap revealed the November spike visually — motivating the formal regression test.
+
+![heatmap](assets/heatmap.png)
 
 ---
 
